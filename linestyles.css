@@ -14,7 +14,7 @@
 p {
   color: rgb(255, 0, 200);
   font-family: "Satisfy", cursive;
-  font-size: 1em;
+  font-size: 2.2em;
 }
 
 h2 {
@@ -52,7 +52,7 @@ a {
   /* left: auto;
   right: auto; */
   animation-name: slow;
-  animation-duration: 82s;
+  animation-duration: 103s;
   animation-fill-mode: forwards;
 }
 
