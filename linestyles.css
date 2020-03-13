@@ -11,10 +11,6 @@
   color: fuchsia;
 }
 
-body {
-  height : 100vh;
-}
-
 p {
   color: rgb(255, 0, 200);
   font-family: "Satisfy", cursive;
