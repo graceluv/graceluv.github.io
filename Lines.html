@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./linestyles.css" />
+    <script src="./scriptedlines.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scripted Lines</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <p id="demoo"></p>
+
+    <section class="button">
+      <h2>
+        <a id="but" href="/index.html">Relive the Experience</a>
+      </h2>
+    </section>
+    <script>
+      var i = 0;
+      var j = 0;
+      var txt =
+        "Your heart's a vine that I've bled trying to climb Yeah, you're making a ruin of me... ";
+
+      var txtt =
+        "Try to survive, keep my spirit alive but like a knife in the woods yeah, you hunt down the good in me";
+
+      var speed = 200;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+        } else if (j < txtt.length) {
+          document.getElementById("demoo").innerHTML += txtt.charAt(j);
+          j++;
+        }
+        setTimeout(typeWriter, speed);
+      }
+
+      onload = typeWriter();
+    </script>
+  </body>
+</html>
